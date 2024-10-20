@@ -4,12 +4,28 @@
   "description": "Chipotle Burrito Order Page",
   "main": "app.js",
   "scripts": {
+    "build": "webpack --mode production",
     "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "@stackso/js-core": "^0.4.17",
+    "@wagmi/core": "^2.13.9",
+    "@web3modal/ethereum": "^2.7.1",
+    "@web3modal/react": "^2.7.1",
+    "@xmtp/xmtp-js": "^13.0.2",
+    "cors": "^2.8.5",
+    "ethers": "^5.7.2",
+    "express": "^4.17.1",
+    "wagmi": "^2.12.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
   }
 }
